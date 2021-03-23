@@ -23,7 +23,7 @@
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
-  --orange: #3c97f7;
+  --orange: #bd5d38;
   --yellow: #ffc107;
   --green: #28a745;
   --teal: #20c997;
@@ -191,7 +191,7 @@ a {
 }
 /* color change: */
 a:hover {
-  color: #8BD4FB;
+  color: #8bd4fb;
   /* color: #824027; */
   text-decoration: underline;
 }
