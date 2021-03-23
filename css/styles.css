@@ -1,6 +1,8 @@
-/*
+/* Changes:
   bd5d38 became -> 3C97F7
   orange & primary change to blue:
+
+  Search for "color change:"
 */
 
 @charset "UTF-8";
@@ -187,8 +189,10 @@ a {
   text-decoration: none;
   background-color: transparent;
 }
+/* color change: */
 a:hover {
-  color: #824027;
+  color: #8BD4FB;
+  /* color: #824027; */
   text-decoration: underline;
 }
 
