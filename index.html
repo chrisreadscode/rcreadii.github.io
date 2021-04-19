@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Chris Read - Portfolio Site</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-195008294-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-195008294-1');
+        </script>
+        <!-- Non-Google Analytics Head-->
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <!-- Meta tags -->
+        <meta name="author" content="" />
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta charset="utf-8" />
+        <title>Chris Read - Portfolio Site</title>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -55,9 +66,9 @@
                     </br></br> I was originally a History major who, after taking a chunk of courses in computer science, statistics, and mathematics and working at a startup, transitioned from finance and economics into software engineering. Previously, I researched American housing legislation with the former head of the Federal Housing and Finance Agency and got a summer finance internship by cold-emailing a billionaire.
                     </p>
                     <div class="social-icons">
-                        <a class="social-icon" href="https://github.com/rcreadii"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="https://angel.co/u/rcreadii"><i class="fab fa-angellist"></i></a>
-                        <a class="social-icon" href="https://www.linkedin.com/in/rcreadii"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon link-general" href="https://github.com/rcreadii"><i class="fab fa-github"></i></a>
+                        <a class="social-icon link-general" href="https://angel.co/u/rcreadii"><i class="fab fa-angellist"></i></a>
+                        <a class="social-icon link-general" href="https://www.linkedin.com/in/rcreadii"><i class="fab fa-linkedin-in"></i></a>
                         <!-- <a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
                         <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a> -->
                     </div>
@@ -129,8 +140,8 @@
                             CRUD operation in a PostgreSQL database to later calculate compass bearing.</p>
                         </div>
                         <div class="flex-shrink-0">
-                            <a class="social-icon" href="https://github.com/rcreadii/lovelock"><i class="fab fa-github"></i></a>
-                            <a class="social-icon" href="https://lovelockapp.herokuapps.com"><i class="fas fa-terminal"></i></a>
+                            <a class="social-icon link-project" href="https://github.com/rcreadii/lovelock"><i class="fab fa-github"></i></a>
+                            <a class="social-icon link-project" href="https://lovelockapp.herokuapp.com"><i class="fas fa-terminal"></i></a>
                         </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -144,8 +155,8 @@
                             user display of critical bar details.</p>
                         </div>
                         <div class="flex-shrink-0">
-                            <a class="social-icon" href="https://github.com/jpremo/open_bar"><i class="fab fa-github"></i></a>
-                            <a class="social-icon" href="https://openbarapp.herokuapps.com"><i class="fas fa-terminal"></i></a>
+                            <a class="social-icon link-project" href="https://github.com/jpremo/open_bar"><i class="fab fa-github"></i></a>
+                            <a class="social-icon link-project" href="https://openbarapp.herokuapp.com"><i class="fas fa-terminal"></i></a>
                         </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -158,8 +169,8 @@
                             database to allow the creation of unique user profiles with protected data.</p>
                         </div>
                         <div class="flex-shrink-0">
-                            <a class="social-icon" href="https://github.com/Ty-Newman/GoodLaughs"><i class="fab fa-github"></i></a>
-                            <a class="social-icon" href="https://good-laughs.herokuapps.com"><i class="fas fa-terminal"></i></a>
+                            <a class="social-icon link-project" href="https://github.com/Ty-Newman/GoodLaughs"><i class="fab fa-github"></i></a>
+                            <a class="social-icon link-project" href="https://good-laughs.herokuapp.com"><i class="fas fa-terminal"></i></a>
                         </div>
                     </div>
                 </div>
@@ -298,6 +309,7 @@
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
+        <script src="js/ga-events.js"></script>
         <script src="js/scripts.js"></script>
     </body>
 </html>
